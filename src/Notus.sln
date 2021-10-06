@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Notus", "Notus\Notus.csproj", "{071AA51B-FEFB-48C7-9A48-3DED1085555F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Notus.Tests", "Notus.Tests\Notus.Tests.csproj", "{AE20D8D1-4409-4975-9984-0EB2CB1CEC60}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{70B34D84-F04D-4744-B262-2E4D38C9C460}"
+	ProjectSection(SolutionItems) = preProject
+		Notus.nuspec = Notus.nuspec
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{071AA51B-FEFB-48C7-9A48-3DED1085555F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{071AA51B-FEFB-48C7-9A48-3DED1085555F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{071AA51B-FEFB-48C7-9A48-3DED1085555F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{071AA51B-FEFB-48C7-9A48-3DED1085555F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE20D8D1-4409-4975-9984-0EB2CB1CEC60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE20D8D1-4409-4975-9984-0EB2CB1CEC60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE20D8D1-4409-4975-9984-0EB2CB1CEC60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE20D8D1-4409-4975-9984-0EB2CB1CEC60}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9136F0F5-A05E-446C-A1A2-069D01C4242A}
+	EndGlobalSection
+EndGlobal
