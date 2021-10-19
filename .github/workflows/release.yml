@@ -24,7 +24,7 @@ jobs:
     - name: Pack
       run: dotnet pack --configuration Release /p:Version=${VERSION} --no-build --output . src/Notus.sln
     - name: Push
-      run: dotnet nuget push notus.${VERSION}.nupkg --source https://nuget.pkg.github.com/alex-forbes/index.json --api-key ${GITHUB_TOKEN}
+      run: dotnet nuget push notus.${VERSION}.nupkg --source https://api.nuget.org/v3/index.json --api-key ${NUGET_API_KEY}
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        NUGET_API_KEY: ${{ secrets.NUGET_API_KEY }}
  
