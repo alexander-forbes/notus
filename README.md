@@ -1,4 +1,4 @@
-[License](https://img.shields.io/github/license/alexander-forbes/notus)
+![License](https://img.shields.io/github/license/alexander-forbes/notus)
 ![Nuget](https://img.shields.io/nuget/dt/notus?label=nuget)
 ![Issues](https://img.shields.io/github/issues/alexander-forbes/notus)
 
