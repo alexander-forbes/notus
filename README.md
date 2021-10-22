@@ -3,7 +3,6 @@
 ![Issues](https://img.shields.io/github/issues/alexander-forbes/notus)
 
 # Notus
-
 Provides a notification object that collects errors and warnings.
 
 ## Usage
